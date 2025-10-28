@@ -7,11 +7,10 @@ from PySide6.QtWidgets import (
     QPushButton, QLabel, QFileDialog, 
     QMessageBox, QTextEdit
 )
-from data_generator import generate_employee_data
-from excel_exporter import export_to_excel
+from src.data_generator import generate_employee_data
+from src.excel_exporter import export_to_excel
 from datetime import datetime
 import os
-
 
 class EmployeeApp(QWidget):
     """
@@ -28,7 +27,7 @@ class EmployeeApp(QWidget):
         super().__init__() # Initialize parent widget
 
         # Initialize log directory and file (daily)
-        self.log_dir = "export_logs"
+        self.log_dir = os.path.join("data", "export_logs") 
         self.ensure_log_directory()
         self.log_file = self.get_daily_log_file()  # ← sets the log file for the current date
 
