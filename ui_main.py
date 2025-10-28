@@ -5,7 +5,7 @@
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QLineEdit, 
     QPushButton, QLabel, QFileDialog, 
-    QMessageBox
+    QMessageBox, QTextEdit
 )
 from data_generator import generate_employee_data
 from excel_exporter import export_to_excel
