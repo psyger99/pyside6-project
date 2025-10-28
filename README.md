@@ -11,6 +11,7 @@ A simple desktop application built with **PySide6**, **Faker**, and **Pandas** t
 ✅ **Exports to Excel** with:
    - `Employees` sheet (full dataset)
    - `Summary` sheet (average salary per department)
+
 ✅ **Auto-logs every export** with timestamp and file path  
 ✅ **Daily log files** stored under `/export_logs`  
 ✅ **Export history panel** to view all exports made today  
