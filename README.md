@@ -22,7 +22,7 @@ A simple desktop application built with **PySide6**, **Faker**, and **Pandas** t
 
 - **PySide6** – for the GUI  
 - **Pandas** – for Excel file creation  
-- **Faker** – for generating realistic names and dates  
+- **Faker** – for generating realistic names 
 - **OpenPyXL** – for Excel I/O support  
 
 ## 📦 Installation
