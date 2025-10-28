@@ -3,6 +3,7 @@
 
 instructions.md
 
+export_logs/
 output/
 
 __pycache__/

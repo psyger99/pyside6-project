@@ -10,4 +10,8 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = EmployeeApp()
     window.show()
-    sys.exit(app.exec())
+
+    try:
+        sys.exit(app.exec())
+    except KeyboardInterrupt:
+        print("\nProgram terminated by user!")
